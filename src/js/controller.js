@@ -180,6 +180,8 @@ const init = function() {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+
+  console.log('TEST IF WORK');
 }
 init();
 
