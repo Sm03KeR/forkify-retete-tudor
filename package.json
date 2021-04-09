@@ -1,0 +1,33 @@
+{
+  "name": "retete",
+  "version": "1.0.0",
+  "description": "retete app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.617",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.617",
+    "@parcel/packager-css": "^2.0.0-nightly.617",
+    "@parcel/packager-html": "^2.0.0-nightly.617",
+    "@parcel/transformer-css": "^2.0.0-nightly.617",
+    "@parcel/transformer-html": "^2.0.0-nightly.617",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.617",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.617",
+    "@parcel/transformer-sass": "^2.0.0-nightly.617",
+    "parcel": "^2.0.0-nightly.615",
+    "postcss": "^8.2.7"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "core-js": "^3.9.1",
+    "fractional": "^1.0.0",
+    "ionicons": "^5.5.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.8"
+  }
+}
